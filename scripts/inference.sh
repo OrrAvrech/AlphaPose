@@ -10,4 +10,4 @@ python scripts/demo_inference.py \
     --checkpoint ${CKPT} \
     --video ${VIDEO} \
     --outdir ${OUTDIR} \
-    --detector yolo  --save_img --save_video
+    --detector yolo --only_pose --save_video

@@ -105,6 +105,8 @@ class DataWriter():
                 return
             # image channel RGB->BGR
             orig_img = np.array(orig_img, dtype=np.uint8)[:, :, ::-1]
+            if self.opt.only_pose is True:
+                orig_img = np.zeros_like(orig_img, dtype=np.uint8)
             if boxes is None or len(boxes) == 0:
                 if self.opt.save_img or self.save_video or self.opt.vis:
                     self.write_image(orig_img, im_name, stream=stream if self.save_video else None)
