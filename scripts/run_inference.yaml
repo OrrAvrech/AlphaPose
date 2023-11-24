@@ -1,0 +1,5 @@
+cfg_path: "./configs/halpe_coco_wholebody_136/resnet/256x192_res50_lr1e-3_2x-dcn-combined.yaml"
+ckpt: "./pretrained_models/multi_domain_fast50_dcn_combined_256x192.pth"
+output_dir:
+vid_dir: "/proj/vondrick2/orr/Data/human-feedback/segments/video"
+filenames: []
