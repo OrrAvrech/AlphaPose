@@ -11,4 +11,4 @@ python ${ROOTDIR}/scripts/demo_inference.py \
     --checkpoint ${CKPT} \
     --video ${VIDEO} \
     --outdir ${OUTDIR} \
-    --detector yolo --only_pose --save_video --save_img
+    --detector yolo --only_pose --save_video --vis_fast

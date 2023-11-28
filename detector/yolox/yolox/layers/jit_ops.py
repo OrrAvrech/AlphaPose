@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/venv python3
 # Copyright (c) Megvii, Inc. and its affiliates. All Rights Reserved
 
 import glob

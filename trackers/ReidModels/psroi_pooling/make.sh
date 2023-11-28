@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/venv bash
 
 CUDA_PATH=/usr/local/cuda
 

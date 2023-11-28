@@ -1,5 +1,6 @@
+root_dir: "/proj/vondrick2/orr/AlphaPose"
 cfg_path: "./configs/halpe_coco_wholebody_136/resnet/256x192_res50_lr1e-3_2x-dcn-combined.yaml"
 ckpt: "./pretrained_models/multi_domain_fast50_dcn_combined_256x192.pth"
-output_dir:
-vid_dir: "/proj/vondrick2/orr/Data/human-feedback/segments/video"
+output_dir: "/proj/vondrick2/orr/Data/human-feedback/segments_with_pose/pose/1_BIG_Yoga_Mistake_You_Need_To_Avoid"
+vid_dir: "/proj/vondrick2/orr/Data/human-feedback/segments_with_pose/video/1_BIG_Yoga_Mistake_You_Need_To_Avoid"
 filenames: []

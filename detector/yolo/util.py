@@ -220,7 +220,7 @@ def write_results(prediction, confidence, num_classes, nms=True, nms_conf=0.4):
 
     return output
 
-#!/usr/bin/env python3
+#!/usr/bin/venv python3
 # -*- coding: utf-8 -*-
 """
 Created on Sat Mar 24 00:12:16 2018
